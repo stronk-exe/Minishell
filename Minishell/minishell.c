@@ -21,7 +21,7 @@ int main(int ac, char **av, char **env)
 	(void)*av;
 	if (ac == 1)
 	{
-		while ((s = readline("$>")) != 0)
+		while ((s = readline("$>prompt ")) != 0)
 		{
 			// printf("$%s$\n", s);
 			if (ft_arg(s,"echo"))

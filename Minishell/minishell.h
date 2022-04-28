@@ -9,6 +9,12 @@
 # include <readline/readline.h>
 # include <readline/history.h>
 
+typedef	struct	s_cmd
+{
+	char 	*cmd;
+	char	*path;
+}				t_cmd;
+
 void	ft_echo(char *s, char **env);
 
 int	ft_exec(char **av, char **path, char **envp);

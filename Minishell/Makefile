@@ -1,8 +1,7 @@
 NAME = minishell
 
 SRCS =  minishell.c\
-		cmds.c\
-		get_path.c\
+	
 		
 
 OBJS = $(SRCS:.c=.o)
