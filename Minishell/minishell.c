@@ -14,10 +14,11 @@ int	ft_arg(char *s1, char *s2)
 	return (1);
 }
 
-int main(int ac, char **av, char **envp)
+int main(int ac, char **av, char **env)
 {
 	char	*s;
 
+	(void)*av;
 	if (ac == 1)
 	{
 		while ((s = readline("$>")) != 0)
@@ -25,9 +26,9 @@ int main(int ac, char **av, char **envp)
 			// printf("$%s$\n", s);
 			if (ft_arg(s,"echo"))
 			{
-				s = readline(">");
-				ft_exec(av, );
-			//	ft_echo(s);
+			//	s = readline(">");
+			//	ft_exec(av, );
+				ft_echo(s, env);
 			//	if (execve(s, cmd, envp) == -1)
 			//		return (0);
 			}
