@@ -1,6 +1,7 @@
 NAME = minishell
 
 SRCS =  minishell.c\
+		parsing/parsing.c\
 	
 		
 

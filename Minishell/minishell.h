@@ -30,4 +30,7 @@ int		ft_strlen(const char *s);
 char	*ft_strjoin(char *s1, char *s2);
 char	*ft_substr(char	*s, int start, int len);
 
+// ---------------- parsing ------------------//
+int	ft_parsing(t_cmd *cmds, char *s);
+
 #endif
