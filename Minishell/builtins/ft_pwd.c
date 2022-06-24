@@ -17,10 +17,7 @@ void	ft_pwd(void)
 	char	*s;
 
 	s = malloc(sizeof(char));
-	printf("%s\n", getcwd(s, 100));
-}
-
-int	main(void)
-{
-	ft_pwd();
+	if (!s)
+		exit(1);
+	printf("%s\n", getcwd(s, 999));
 }
