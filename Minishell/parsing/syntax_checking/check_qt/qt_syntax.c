@@ -65,6 +65,7 @@ int	*count_sdq(char *s, char f, char l)
 	return (t);
 }
 */
+
 int	check_qt(t_arg *s)
 {
 	int	x;

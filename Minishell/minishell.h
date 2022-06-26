@@ -65,6 +65,8 @@ void	parse_quotes_lastone(char *s, char *t, int *i, int *j);
 t_arg	*ft_parsing(char *s);
 // t_arg	*parsin_dyalbss7(t_arg *arg, t_gg *gg);
 t_arg	*parse_so(t_arg *arg);
+int		ft_condistions(char *s);
+void	fill_list_so(t_arg **sfa, char	**t);
 //int		socounter(char *s);
 t_arg	*remove_quotes(t_arg *arg);
 t_arg	*parsing_spaces(char *s);
